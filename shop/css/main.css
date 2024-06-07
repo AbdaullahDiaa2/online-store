@@ -1,0 +1,316 @@
+/***** Section *****/
+
+:root {
+    /* color */
+    /* --color1:;
+    --color2:;
+    --color3:;
+    --color4:; */
+    /* font */
+    /* --font1: ;
+    --font2: ;
+    --font3: ;
+    --font4: ; */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: ; */
+    background: #333 !important;
+    z-index: -1;
+    font-family: 'Anton', sans-serif;
+}
+
+nav {
+    height: 60px;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.icon1 {
+    margin-right: 100px;
+}
+
+.icon1 i {
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speas {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col-my {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.zin {
+    z-index: 11111;
+}
+
+.card-tf {
+    overflow: hidden;
+}
+
+.card-tf:hover img {
+    overflow: hidden;
+    transform: rotate(10deg) scale(1.5);
+}
+
+.tit-my:hover {
+    color: rgb(210, 218, 90);
+}
+
+
+/***** End Section *****/
+
+
+/***** Section1 *****/
+
+nav {
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+.ly {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.372);
+}
+
+.cen-1 {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.sec1-2 {
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.my-text-1 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 80%;
+    height: 70vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    background-image: url("/imges/s1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-of {
+    margin-right: 400px;
+    margin-bottom: 200px;
+    z-index: 33;
+}
+
+.img-z {
+    position: absolute;
+    top: -60px;
+    right: 30px;
+    width: 500px;
+    height: 700px;
+    z-index: 33;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.cen-1 h1 {
+    width: 400px;
+    color: aliceblue;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(198, 199, 201);
+}
+
+.te-tile {
+    z-index: 11;
+    background: rgba(0, 0, 0, 0.169);
+    border-radius: 5px;
+}
+
+.size-imge img {
+    aspect-ratio: 2.5/1;
+    object-fit: cover;
+    /* height: 700px; */
+}
+
+.text-size1 {
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.aspect {
+    aspect-ratio: 1/1;
+}
+
+.cards {
+    background: rgb(152, 70, 70);
+    height: 500px;
+}
+
+.tran {
+    transition: 0.5s ease;
+}
+
+.card-my {
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    transition: 0.5s ease;
+}
+
+.card-my:hover {
+    background: #0066d3;
+    color: aliceblue;
+}
+
+.card-my:hover .card-body {
+    transform: translateX(10px);
+}
+
+.card-my:hover img {
+    transform: rotate(10deg) scale(1.5);
+}
+
+.card-my img {
+    transition: 0.5s ease;
+}
+
+.img-ly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.502);
+    display: none;
+}
+
+.img-ly i {
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    transform: translateY(-20px);
+}
+
+.borders-my2:hover .img-ly {
+    display: flex;
+}
+
+.borders-my2:hover .img-ly i {
+    transform: translateY(0px);
+}
+
+.borders-my2:hover h4 {
+    color: rgb(138, 188, 2);
+    transform: scale(1.1);
+}
+
+.borders-my2:hover img {
+    transform: scale(1.1);
+}
+
+.speas2 {
+    justify-content: space-between;
+}
+
+.accent {
+    accent-color: red !important;
+}
+
+.border-my {
+    border-radius: 2px;
+    border: 1px rgba(40, 40, 40, 0.409) solid;
+}
+
+.dolar:hover {
+    background: rgba(255, 242, 0, 0.699);
+    border-radius: 4px;
+    transform: scale(1.01);
+}
+
+.slid-my {
+    aspect-ratio: 1/1;
+    object-fit: contain;
+}
+
+.h-input {
+    height: 50px;
+}
+
+
+/***** End Section *****/
+
+.sec1-1 {
+    background-image: url("/imges/drone-flying-foggy-snowy-high-hills-mountains.jpg");
+    z-index: 22222;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 80%;
+    height: 70vh;
+}
+
+.img-all {
+    /* width: 100px; */
+    /* height: 100px; */
+    border-radius: 50%;
+}
+
+
+/***** Section2 *****/
+
+.sec1-3 {
+    margin-top: 400px;
+}
+
+
+/***** End Section *****/
+
+
+/***** Section3 *****/
+
+
+/***** End Section *****/
